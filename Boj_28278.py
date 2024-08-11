@@ -23,4 +23,4 @@ for _ in range(N):
         if not stack:
             print(-1)
         else:
-            print(stack[-1])
+            print(stack[-1]) # 5출력
