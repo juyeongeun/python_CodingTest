@@ -1,1 +1,2 @@
-[:]
+
+    look.add(input())
