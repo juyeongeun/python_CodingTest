@@ -1,6 +1,4 @@
 num = list(map(int, input().split()))
-asc = 0
-des = 0
 asc_arr = sorted(num)
 des_arr = sorted(num, reverse=True)
 
