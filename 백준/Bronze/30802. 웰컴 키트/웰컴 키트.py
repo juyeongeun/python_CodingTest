@@ -9,7 +9,7 @@ P_result = list(map(int, (N//P, N % P)))
 for i in T_list:
     if i == 0:
         continue
-    if i <= T:
+    if i < T:
         T_result += 1
     elif i % T == 0:
         T_result += i // T
